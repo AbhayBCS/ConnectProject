@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<m:MaterialButton ui:field="b1" text="Update"></m:MaterialButton>
+		<m:MaterialButton ui:field="b2" text="Delete"></m:MaterialButton>
+		<m:MaterialButton ui:field="b3" text="Retrieve"></m:MaterialButton>
+		
+		<m:MaterialTextBox ui:field="v1" label="Phone"></m:MaterialTextBox>
+		<m:MaterialTextBox ui:field="v2" label="Name"></m:MaterialTextBox>
+		<m:MaterialTextBox ui:field="v3" label="Designation"></m:MaterialTextBox>
+		
+		      <m:MaterialRow addStyleNames="code">
+                <m:MaterialBadge text="Connect2Any1" textColor="BLACK" shadow="1" layoutPosition="RELATIVE" float="RIGHT" backgroundColor="BLUE" />
+                <m:MaterialTitle scrollspy="standard_table" title="Contact Details" textColor="BLUE"  />
+                <m:MaterialRow>
+                    <m:MaterialColumn grid="s12 l3" marginTop="28">
+                         <m:MaterialTitle scrollspy="standard_table" title="Phone No"  />
+                    </m:MaterialColumn>
+                    <m:MaterialColumn grid="s12 l3" marginTop="28">
+                         <m:MaterialTitle scrollspy="standard_table" title="Name" />
+                    </m:MaterialColumn>
+                    <m:MaterialColumn grid="s12 l3" marginTop="28">
+                         <m:MaterialTitle scrollspy="standard_table" title="Designation"  />
+                    </m:MaterialColumn>
+                   
+                </m:MaterialRow>
+                </m:MaterialRow>
+                 
+	</g:HTMLPanel>
+</ui:UiBinder>

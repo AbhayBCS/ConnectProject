@@ -1,0 +1,12 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<m:MaterialButton ui:field="p1" text="READ" backgroundColor="RED" textColor="WHITE" iconType="RECEIPT" iconPosition="RIGHT"></m:MaterialButton>
+		<m:MaterialButton ui:field="p2" text="WRITE" backgroundColor="GREEN" textColor="WHITE" iconType="RECEIPT" iconPosition="RIGHT"></m:MaterialButton>
+	</g:HTMLPanel>
+</ui:UiBinder> 

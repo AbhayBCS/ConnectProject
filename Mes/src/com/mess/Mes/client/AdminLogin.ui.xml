@@ -1,0 +1,14 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m='urn:import:gwt.material.design.client.ui'>
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		 <m:MaterialImage ui:field="h4" url="https://arabacademy-u8hapu3mdn.netdna-ssl.com/wp-content/uploads/2015/04/loginImage-400x300.jpg" width="50%" />
+	     <m:MaterialTextBox ui:field="k1" label="Admin First Name" iconType="FACE" ></m:MaterialTextBox>
+         <m:MaterialTextBox ui:field="k2" label="Admin Password" iconType="MEMORY" ></m:MaterialTextBox>
+	     <m:MaterialButton ui:field="k3" text="LOGIN" iconType="LAPTOP" ></m:MaterialButton>
+	</g:HTMLPanel>
+</ui:UiBinder> 

@@ -1,0 +1,43 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	
+	
+	<m:MaterialRow>
+	<m:MaterialColumn>
+	<m:MaterialCard backgroundColor="WHITE" marginTop="100" marginLeft="500" width="50%">
+	<m:MaterialCardContent textColor="BLACK">
+	<m:MaterialImage ui:field="h5" url="https://trak.in/wp-content/uploads/2016/03/Registering-Business-company.jpg" width="70%"/>
+	<m:MaterialCardTitle text="REGISTRATION" />
+	
+	<m:MaterialTextBox label="Phone" ui:field="phone" iconType="PHONE"></m:MaterialTextBox>
+	<m:MaterialTextBox label="Name" ui:field="name" iconType="FACE"></m:MaterialTextBox>
+	<m:MaterialTextBox label="Designation" ui:field="des" iconType="BUSINESS"></m:MaterialTextBox>
+	<m:MaterialTextBox label="Email" ui:field="email" iconType="MAIL"></m:MaterialTextBox>
+	<m:MaterialTextBox label="Create Password" ui:field="pswd" iconType="LAPTOP"></m:MaterialTextBox>
+	
+		
+	
+	</m:MaterialCardContent>
+	
+	<m:MaterialCardAction >
+	<m:MaterialButton ui:field="Register" text="INSERT" ></m:MaterialButton>
+	</m:MaterialCardAction>
+	
+	</m:MaterialCard>
+	</m:MaterialColumn>
+	</m:MaterialRow>
+	
+	<!-- <g:HTMLPanel>
+	    <m:MaterialImage ui:field="h5" url="https://trak.in/wp-content/uploads/2016/03/Registering-Business-company.jpg" width="90%"/>
+		<m:MaterialTextBox ui:field="name" label="First Name" iconType="FACE" ></m:MaterialTextBox>
+		<m:MaterialTextBox ui:field="mobile" label="Mobile No"  ></m:MaterialTextBox>
+		<m:MaterialTextBox ui:field="email" label="Email" iconType="MAIL"></m:MaterialTextBox>
+		<m:MaterialTextBox ui:field="location" label="City" ></m:MaterialTextBox>
+		<m:MaterialButton ui:field="Register" text="INSERT" ></m:MaterialButton>
+	</g:HTMLPanel> -->
+</ui:UiBinder>

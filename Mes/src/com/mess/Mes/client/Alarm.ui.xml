@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+	    <m:MaterialImage ui:field="h3" url="https://www.marriedwithmoney.com/wp-content/uploads/2018/03/time-2980690_640.jpg" width="100%" />
+		<m:MaterialButton ui:field="tt" text="Set Alarm" iconType="ALARM_ON" backgroundColor="RED" />
+        <m:MaterialButton ui:field="hh" text="Back" iconType="ARROW_BACK" iconPosition="LEFT"></m:MaterialButton>
+		<!-- <g:Button ui:field="b1">Set ALarm</g:Button> -->
+		<m:MaterialTextBox ui:field="t1" label="Time" iconType="ACCESS_TIME" ></m:MaterialTextBox>
+		<m:MaterialTextBox ui:field="t2" label="Date"  iconType="DATE_RANGE"></m:MaterialTextBox>
+		<m:MaterialTextBox ui:field="t3" label="Designation" iconType="BUSINESS"></m:MaterialTextBox>
+        
+	</g:HTMLPanel>
+</ui:UiBinder> 

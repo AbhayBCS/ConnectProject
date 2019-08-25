@@ -1,0 +1,32 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m='urn:import:gwt.material.design.client.ui'
+             xmlns:ma="urn:import:gwt.material.design.addins.client">
+	<ui:style>
+	     @external side-nav, active;
+        body{
+            background-color: #fafafa;
+        }
+        .side-nav li.active{
+            font-weight: bold;
+        }
+	</ui:style>
+	<g:HTMLPanel>
+        
+        <m:MaterialImage ui:field="h3" url="https://home.bt.com/images/whatsapp-136424858907902601-180206104406.jpg" width="90%" />
+		<m:MaterialButton ui:field="M"  text="Send Text Message" iconType="SEND"></m:MaterialButton>
+		<m:MaterialButton ui:field="M1" text="Send Mail" backgroundColor="RED" iconType="MAIL"></m:MaterialButton>
+		<m:MaterialButton ui:field="KK" text="Back" backgroundColor="WHITE" textColor="BLACK" iconType="ARROW_BACK"></m:MaterialButton>
+		<m:MaterialButton ui:field="M2"  text="Whatsapp" backgroundColor="GREEN"></m:MaterialButton>
+		<m:MaterialButton ui:field="M3"  text="Facebook"></m:MaterialButton>
+		<m:MaterialTextBox ui:field="t1" label="State" ></m:MaterialTextBox>
+		<m:MaterialTextBox ui:field="t2" label="Person Name" ></m:MaterialTextBox>
+		<m:MaterialTextBox ui:field="t3" label="Phone No" ></m:MaterialTextBox>
+		<m:MaterialTextBox ui:field="t4" label="Time" ></m:MaterialTextBox>
+		<m:MaterialTextBox ui:field="t5" label="Date" ></m:MaterialTextBox>
+		
+		<m:MaterialTextBox ui:field="t6" label="Message" ></m:MaterialTextBox>
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 

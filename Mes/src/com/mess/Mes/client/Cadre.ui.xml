@@ -1,0 +1,34 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	 xmlns:ma="urn:import:gwt.material.design.addins.client">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+	
+	<m:MaterialButton ui:field="K7" text="Select Cadre" backgroundColor="RED" textColor="WHITE" iconType="BUSINESS" iconPosition="RIGHT"></m:MaterialButton>
+	<m:MaterialButton ui:field="K1" text="Central"></m:MaterialButton>
+	<m:MaterialButton ui:field="K2" text="Zone"></m:MaterialButton>
+	<m:MaterialButton ui:field="K3" text="State"></m:MaterialButton>
+	<m:MaterialButton ui:field="K4" text="District"></m:MaterialButton>
+	<m:MaterialButton ui:field="K8" text="VIDHAN SABHA" ></m:MaterialButton>
+	<m:MaterialButton ui:field="K9" text="MANDAL"></m:MaterialButton>
+	<m:MaterialButton ui:field="K5" text="Sector"></m:MaterialButton>
+	<m:MaterialButton ui:field="K6" text="Booth"></m:MaterialButton>
+	<m:MaterialButton ui:field="S1"  backgroundColor="WHITE" textColor="BLACK" ></m:MaterialButton>
+	<m:MaterialButton ui:field="S2" text="Back" backgroundColor="WHITE" textColor="BLACK" iconType="ARROW_BACK"></m:MaterialButton>
+       <m:MaterialImage ui:field="h1" url="http://dazomedia.com/wp-content/uploads/2014/04/network1.jpg" />
+       
+   
+	<g:ListBox ui:field="L1">
+	<g:item>Central</g:item>
+	<g:item>State</g:item>
+	<g:item>Zones</g:item>
+	<g:item>District</g:item>
+	<g:item>Sector</g:item>
+	<g:item>Booth</g:item>
+	</g:ListBox>
+	</g:HTMLPanel>
+</ui:UiBinder> 
